@@ -2,12 +2,12 @@ void main() {
   //parametros simples(obrigatorios)
   print('A soma de 10 + 10 é ${somaInterios(10, 10)}');
 
-  //Parametros Nomeados,  = {}
+  //Parametros Nomeados,  = usa {}
   //parametros nomeados são nullables por default
   //parametros nomeados podem ser promovidos para non-null com checagem de null
   print('A soma de 10.2 + 10.2 é ${somaDoubles(numero1: 10.2, numero2: 10.2)}');
 
-  //Parametros Nomeados Obrigatorios = required
+  //Parametros Nomeados Obrigatorios = usa required
   print('A soma é ${somaDoublesObrigatorios(numero1: 26.5548, numero2: 863.569)}');
   print('A soma é ${somaDoublesObrigatorios2(numero1: null, numero2: 863.569)}');
 
@@ -15,7 +15,7 @@ void main() {
   print('Parametros Nomeados Default ${somaDoublesObrigatoriosDefault()}');
   print('Parametros Nomeados Default ${somaDoublesObrigatoriosDefault(numero1: 98)}');
 
-  //Parametro Opcional - tem que passar os parametros na sequencia. = []
+  //Parametro Opcional - tem que passar os parametros na sequencia. = usa []
   print('Parametro Opcional ${somaIntOpcional()}');
   print('Parametro Opcional ${somaIntOpcional(1)}');
   print('Parametro Opcional ${somaIntOpcional(8,24)}');
